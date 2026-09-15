@@ -1,0 +1,66 @@
+{
+    "name": "ugarit/workos",
+    "description": "Utilities for integrating the Ugarit starter kits with WorkOS.",
+    "keywords": [
+        "ugarit",
+        "workos"
+    ],
+    "homepage": "https://github.com/ugarit/workos",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ugarit/workos/issues",
+        "source": "https://github.com/ugarit/workos"
+    },
+    "authors": [
+        {
+            "name": "Muath R Abu Ouda",
+            "email": "muathrabuouda@hotmail.com",
+            "role": "Vision Leader of Ugarit"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com",
+            "role": "Original Creator & Primary Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "heritage/contracts": "^1.00.00",
+        "heritage/support": "^1.00.00",
+        "workos/workos-php": "^5.0",
+        "firebase/php-jwt": "^7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^3.0|^4.0",
+        "phpstan/phpstan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ugarit\\WorkOS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "ugarit": {
+            "providers": []
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.00.00"
+}
